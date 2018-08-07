@@ -1,15 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
   <link href = 'style.css' rel = 'stylesheet'>
   <script src= './bundle.js' defer></script>
 
   <title>Trip Planner</title>
 </head>
 <body>
-  <div id = 'map'>
+  <header>  <h1>Things to do around NYC</h1></header>
+  <main>
+    <div id = 'map'></div>
+    <aside>
+      <section>
+        <div >
+          <label for="hotel-select"><h3>Hotels</h3></label>
+          <select id="pet-select">
+              <option value="">--Please choose an option--</option>
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="hamster">Hamster</option>
+              <option value="parrot">Parrot</option>
+              <option value="spider">Spider</option>
+              <option value="goldfish">Goldfish</option>
+          </select>
+          <button>X</button>
+        </div>
+        <div>
+          <label for="restaurants-select"><h3>Restaurants</h3></label>
+          <select id="pet-select">
+              <option value="">--Please choose an option--</option>
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="hamster">Hamster</option>
+              <option value="parrot">Parrot</option>
+              <option value="spider">Spider</option>
+              <option value="goldfish">Goldfish</option>
+          </select>
+          <button>X</button>
+        </div>
+        <div>
+          <label for="activites-select"><h3>Things to do</h3></label>
+          <select id="pet-select">
+              <option value="">--Please choose an option--</option>
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="hamster">Hamster</option>
+              <option value="parrot">Parrot</option>
+              <option value="spider">Spider</option>
+              <option value="goldfish">Goldfish</option>
+          </select>
+          <button>X</button>
+        </div>
 
-  </div>
+      </section>
+      <hr>
+      <section>
+              <h2 >Itinerary: </h2>
+              <div>
+                <h3>Hotels</h3>
+                <ul>
+                    <li>xxxxxxxxxxxx</li>
+                  </ul>
+                  <button>X</button>
+              </div>
+              <div>
+                <h3>Restaurants</h3>
+                <ul>
+                    <li>xxxxxxxxxxxx</li>
+                  </ul>
+                  <button>X</button>
+              </div>
+              <div>
+                <h3>Things to do</h3>
+                <ul>
+                    <li>xxxxxxxxxxxx</li>
+                  </ul>
+                  <button>X</button>
+                </div>
+      </section>
+    </aside>
+  </main>
 </body>
 </html>
