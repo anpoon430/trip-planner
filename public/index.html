@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
   <link href = 'style.css' rel = 'stylesheet'>
@@ -9,13 +12,19 @@
   <title>Trip Planner</title>
 </head>
 <body>
-  <header>  <h1>Things to do around NYC</h1></header>
+  <header>
+
+      <h1>Trip Planner</h1>
+
+  </header>
+
   <main>
     <div id = 'map'></div>
     <aside>
-      <section>
-        <div >
+      <section class = 'card'>
+        <div>
           <label for="hotel-select"><h3>Hotels</h3></label>
+          <div class = 'selection'>
           <select id="pet-select">
               <option value="">--Please choose an option--</option>
               <option value="dog">Dog</option>
@@ -25,10 +34,12 @@
               <option value="spider">Spider</option>
               <option value="goldfish">Goldfish</option>
           </select>
-          <button>X</button>
+          <button class = 'add'>+</button>
         </div>
+      </div>
         <div>
-          <label for="restaurants-select"><h3>Restaurants</h3></label>
+        <label for="restaurants-select"><h3>Restaurants</h3></label>
+          <div class = 'selection'>
           <select id="pet-select">
               <option value="">--Please choose an option--</option>
               <option value="dog">Dog</option>
@@ -38,10 +49,12 @@
               <option value="spider">Spider</option>
               <option value="goldfish">Goldfish</option>
           </select>
-          <button>X</button>
+          <button class = 'add'>+</button>
         </div>
+      </div>
         <div>
-          <label for="activites-select"><h3>Things to do</h3></label>
+        <label for="activites-select"><h3>Things to do</h3></label>
+          <div class = 'selection'>
           <select id="pet-select">
               <option value="">--Please choose an option--</option>
               <option value="dog">Dog</option>
@@ -51,13 +64,14 @@
               <option value="spider">Spider</option>
               <option value="goldfish">Goldfish</option>
           </select>
-          <button>X</button>
+          <button class = 'add'>+</button>
         </div>
+      </div>
 
       </section>
       <hr>
-      <section>
-              <h2 >Itinerary: </h2>
+      <section class = 'card'>
+
               <div>
                 <h3>Hotels</h3>
                 <ul>
@@ -72,6 +86,27 @@
                   </ul>
                   <button>X</button>
               </div>
+              <div>
+                <h3>Things to do</h3>
+                <ul>
+                    <li>xxxxxxxxxxxx</li>
+                  </ul>
+                  <button>X</button>
+                </div>
+              <div>
+                <h3>Things to do</h3>
+                <ul>
+                    <li>xxxxxxxxxxxx</li>
+                  </ul>
+                  <button>X</button>
+                </div>
+              <div>
+                <h3>Things to do</h3>
+                <ul>
+                    <li>xxxxxxxxxxxx</li>
+                  </ul>
+                  <button>X</button>
+                </div>
               <div>
                 <h3>Things to do</h3>
                 <ul>
